@@ -51,5 +51,9 @@
         <symbol id="icon-milk-bucket" viewBox="0 0 21 32">
             <path d="M0 0h21.12v32h-21.12v-32z"></path>
         </symbol>
+        <symbol id="icon-go" viewBox="0 0 32 32">
+<path d="M27.728 16.024l-8.485 8.482-2.828-2.835 3.656-3.671h-14.071v-4h14.071l-3.657-3.644 2.828-2.816 8.486 8.484z"></path>
+</symbol>
+
     </defs>
 </svg>
