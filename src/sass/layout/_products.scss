@@ -91,7 +91,7 @@
   height: 41px;
   border: transparent;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--primary-light-color);
 }
 
 @media screen and (max-width: 767px) {
@@ -137,7 +137,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .products-container {
+    width: 1050px;
+  }
+
   .products-list-item {
+    width: 330px;
     padding-bottom: 50px;
     &:not(:last-child) {
       margin-right: 30px;
@@ -154,5 +159,7 @@
   }
   .products-list-image {
     margin-bottom: 38px;
+    height: auto;
+    margin-top: -210px;
   }
 }
